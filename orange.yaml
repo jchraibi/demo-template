@@ -30,7 +30,7 @@ metadata:
   creationTimestamp: 2019-02-12T15:02:43Z
   name: orange-nodejs-mongodb
   namespace: demotemplate
-  resourceVersion: "5821739"
+  resourceVersion: "5821866"
   selfLink: /apis/template.openshift.io/v1/namespaces/demotemplate/templates/orange-nodejs-mongodb
   uid: 400128de-2ed7-11e9-a4e4-000c29ff846b
 objects:
@@ -136,8 +136,8 @@ objects:
       spec:
         containers:
         - env:
-          - name: newvar
-            value: newvar
+          - name: newvar1
+            value: newvar1
           - name: DATABASE_SERVICE_NAME
             value: ${DATABASE_SERVICE_NAME}
           - name: MONGODB_USER
